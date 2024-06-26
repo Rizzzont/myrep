@@ -8,4 +8,5 @@ V = np.array([[1],
               [1]])
 
 L = np.dot(A, V)
-print(f'Умножение:\n{L}')
+print(f'Умножение:\n{L}'
+      f'\nСумма значений:\n {np.add.reduce(L)}')
